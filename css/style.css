@@ -1,0 +1,111 @@
+/* promega styles */
+
+/*
+html {
+    width: auto;
+    }
+*/
+
+
+body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: 'Calibri';
+    }
+
+
+/*
+@media screen and (max-width: 660px) {
+    html {
+        width: 600px;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-rows: 125px 660px auto;
+        grid-template-columns: 1fr auto 1fr;
+    }
+}
+*/
+
+.green-line {
+        background-color: #006400;
+        height: 3px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 5% auto 5%;
+    grid-template-rows: 125px 680px auto;
+    
+}
+
+
+.toprowleft,
+.toprowcenter,
+.toprowright,
+.midrowleft,
+.midrowcenter,
+.midrowright,
+.botrowleft,
+.botrowcenter,
+.botrowright {
+    width: auto;
+    height: auto;
+    text-align: center;
+    align-items: center;
+}
+
+.toprowleft {
+
+}
+
+.toprowcenter {
+    background-image: url("../images/prOmega_logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 10px;
+    height: 95px;
+    overflow: hidden;
+}
+
+.toprowright {
+
+}
+
+.midrowleft {
+    background-image: #ffffff;
+}
+
+.midrowcenter {
+    background-image: url("../images/bluedoor.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #f0f0f0;
+    opacity: 1;
+    height: 680px;
+}
+
+.midrowright {
+    background-image: #ffffff;
+}
+
+.botrowleft {
+    background-image #ffffff;
+}
+
+.botrowcenter {
+    height: auto;
+    background-image: #ffffff;
+    font-family: 'Calibri';
+    color: #006400;
+}
+
+.botrowright {
+    background-image: #ffffff;
+}
+
